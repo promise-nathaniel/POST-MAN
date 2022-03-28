@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Postman - Sign Up</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="enterprise-sign-in-container">
+            <a>Sign in with Single Sign-On (SSO)</a>
+        </div>
+
+        <div class="main-sign-up">
+            <div class="left-section">
+                <div class="logo-alt"></div>
+                <div class="text-container">
+                    <h2>Why Sign Up?</h2>
+                    <div>
+                        <ul>
+                            <li>Organize all your API development within Postman Workspaces</li>
+                            <li>Sync your Postman data across devices</li>
+                            <li>Backup your data to the Postman cloud</li>
+                            <li>It's free!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="heading">
+                    <h4>Create Postman Account</h4>
+                    <div class="sign-in-link-container">
+                        <a id="sign-in-link">Sign In</a> instead?
+                    </div>
+                </div>
+
+                <form id="sign-up-form">
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input class="form-control" type="text" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Username</label>
+                        <input class="form-control" type="text" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">
+                            Password
+                            <span id="show-password" class="show-password" >SHOW</span>
+                        </label>
+                        <input class="form-control" type="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="checkbox">
+                        <label>
+                            Sign up to get updates, news, and other marketing communications.
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" checked="">
+                        <label>Stay signed in for 30 days</label>
+                    </div>
+                    <p>
+                        By creating an account, I agree to the
+                        <a>Terms</a>
+                        <span>and</span>
+                        <a>Privacy Policy</a> .
+                    </p>
+                    <div class="form-group">
+                        <button class="btn btn-primary" type="submit">
+                            Create free account
+                        </button>
+                    </div>
+                </form>
+                <div>
+
+                </div>
+                <a class="btn btn-info google-sign-up" href="">
+                    <div class="google-logo">
+                        <img src="assets/google-logo-icon-sign-in.svg" width="18px" height="18px">
+                    </div>
+                    <div class="google-text">
+                        <div>Sign up with Google</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="copyright-text">
+                ©2022 Postman, Inc. All rights reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

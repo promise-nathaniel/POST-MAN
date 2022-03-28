@@ -1,0 +1,237 @@
+html {
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    box-sizing: border-box
+}
+
+* {
+    box-sizing: inherit
+}
+
+body {
+    background: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0
+}
+
+input {
+    margin: 0;
+    font: inherit
+}
+
+button {
+    font-family: inherit
+}
+
+a {
+    text-decoration: none;
+    color: #3e92f2;
+    font-weight: 600;
+    cursor: pointer
+}
+
+a:focus {
+    color: #3e92f2
+}
+
+.container-fluid {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 8px;
+    margin: 0
+}
+
+.form-label {
+    font-weight: 600;
+    display: block;
+    color: #282828;
+    margin-bottom: 8px
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-control {
+    height: 40px;
+    color: #282828;
+    border-radius: 3px;
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px
+}
+
+.btn[disabled] {
+    opacity: .6
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff6c37;
+    height: 40px;
+    width: 100%
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #4285f4;
+    height: 40px;
+    width: 100%
+}
+
+.btn-default {
+    color: #282828;
+    opacity: .6;
+    background-color: #f4f4f4;
+    height: 40px;
+    width: 100%;
+    border: solid 1px rgba(40, 40, 40, .1)
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f15a22
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #f26b3a
+}
+
+.btn-primary:active:focus {
+    color: #fff;
+    outline: 0
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #2b77f3
+}
+
+.btn-info:focus {
+    color: #fff;
+    background-color: #097bed
+}
+
+.btn-info:active:focus {
+    color: #fff;
+    outline: 0
+}
+
+.logo {
+    display: block;
+    background: url(https://static.getpostman.com/assets/pm-logo-1.svg) no-repeat center;
+    width: 104px;
+    height: 110px
+}
+
+.logo-alt {
+    display: block;
+    background: url(https://assets.getpostman.com/common-share/postman-logo-horizontal-white.svg) no-repeat center;
+    background-size: 154px 56px;
+}
+
+.show-password {
+    opacity: .4;
+    font-size: 12px;
+    font-weight: 600;
+    color: #282828;
+    cursor: pointer;
+    float: right
+}
+
+.awesome-divider-div {
+    padding: 0 32px
+}
+
+.awesome-divider {
+    height: 1px;
+    width: 100%;
+    border-top: solid thin #f0f0f0;
+    margin: 24px 0;
+    text-align: center
+}
+
+.awesome-divider:after {
+    content: attr(data-label);
+    display: inline-block;
+    background: #fff;
+    padding: 0 32px;
+    position: relative;
+    top: -10px;
+    font-size: 12px;
+    color: #9b9b9b
+}
+
+.enterprise-sign-in-container,
+.sign-in-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 32px;
+    font-size: 12px
+}
+
+input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    margin-top: 2px
+}
+
+input[type=checkbox]+label:before {
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    padding: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    color: #fff;
+    background-color: #f4f4f4;
+    margin-bottom: 2px
+}
+
+input[type=checkbox]:checked+label:before {
+    background: #f26b3a url(https://static.getpostman.com/assets/tick.svg) center no-repeat;
+    content: "";
+    text-align: center;
+    background-size: 12px 14px;
+    border: 1px solid #f26b3a
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+#copyright-text {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 16px
+}
